@@ -1,5 +1,4 @@
-﻿
-class Start
+﻿class Start
 {
     public static void Main(string[] args)
     {
