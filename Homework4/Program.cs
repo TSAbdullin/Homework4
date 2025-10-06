@@ -2,8 +2,8 @@
 {
     public static void Main(string[] args)
     {
-        int num1 = 5;
-        int num2 = 10;
+        int num1 = 5; // переменная, которая просто храанит число 5
+        int num2 = 10; // переменная, которая просто храанит число 10
 
         ////////////////////////////////////////
         Console.WriteLine("Упражнение 5.1 Написать метод, возвращающий наибольшее из двух чисел. Входные\r\nпараметры метода – два целых числа. Протестировать метод.\n");
@@ -71,7 +71,7 @@
         return num1 > num2 ? num1 : num2;
     }
 
-    static void ChangeValuesOfTwoNum(ref int num1, ref int num2) // меняем значения двух переменных
+    static void ChangeValuesOfTwoNum(ref int num1, ref int num2) // меняем значения двух переменных с помощью временной переменной
     {
 
         int temp = num1;
